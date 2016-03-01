@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+        <script type="text/javascript">
+            var MSA = [{"header": "GUX1_TRIRE/481-509", "sequence": "HYGQCGGI...GYSGPTVCASGTTCQVLNPYY", "highlight": [["1", "background-color: red"]]},
+                        {"header": "GUN1_TRIRE/427-455", "sequence": "HWGQCGGI...GYSGCKTCTSGTTCQYSNDYY"},
+                        {"header": "GUX1_PHACH/484-512", "sequence": "QWGQCGGI...GYTGSTTCASPYTCHVLNPYY"},
+                        {"header": "GUN2_TRIRE/25-53", "sequence": "VWGQCGGI...GWSGPTNCAPGSACSTLNPYY"},
+                        {"header": "GUX2_TRIRE/30-58", "sequence": "VWGQCGGQ...NWSGPTCCASGSTCVYSNDYY"},
+                        {"header": "GUN5_TRIRE/209-237", "sequence": "LYGQCGGA...GWTGPTTCQAPGTCKVQNQWY"},
+                        {"header": "GUNF_FUSOX/21-49", "sequence": "IWGQCGGN...GWTGATTCASGLKCEKINDWY"},
+                        {"header": "GUX3_AGABI/24-52", "sequence": "VWGQCGGN...GWTGPTTCASGSTCVKQNDFY"},
+                        {"header": "GUX1_PENJA/505-533", "sequence": "DWAQCGGN...GWTGPTTCVSPYTCTKQNDWY"},
+                        {"header": "GUXC_FUSOX/482-510", "sequence": "QWGQCGGQ...NYSGPTTCKSPFTCKKINDFY"},
+                        {"header": "GUX1_HUMGR/493-521", "sequence": "RWQQCGGI...GFTGPTQCEEPYICTKLNDWY"},
+                        {"header": "GUX1_NEUCR/484-512", "sequence": "HWAQCGGI...GFSGPTTCPEPYTCAKDHDIY"},
+                        {"header": "PSBP_PORPU/26-54", "sequence": "LYEQCGGI...GFDGVTCCSEGLMCMKMGPYY"},
+                        {"header": "GUNB_FUSOX/29-57", "sequence": "VWAQCGGQ...NWSGTPCCTSGNKCVKLNDFY"},
+                        {"header": "PSBP_PORPU/69-97", "sequence": "PYGQCGGM...NYSGKTMCSPGFKCVELNEFF"},
+                        {"header": "GUNK_FUSOX/339-370", "sequence": "AYYQCGGSKSAYPNGNLACATGSKCVKQNEYY"},
+                        {"header": "PSBP_PORPU/172-200", "sequence": "RYAQCGGM...GYMGSTMCVGGYKCMAISEGS"},
+                        {"header": "GUN1_TRIRE/427-455", "sequence": "HWGQCGGI...GYSGCKTCTSGTTCQYSNDYY"},
+                        {"header": "GUN1_TRIRE/427-455", "sequence": "HWGQCGGI...GYSGCKTCTSGTTCQYSNDYY"},
+                        {"header": "GUX1_PHACH/484-512", "sequence": "QWGQCGGI...GYTGSTTCASPYTCHVLNPYY"},
+                        {"header": "GUN2_TRIRE/25-53", "sequence": "VWGQCGGI...GWSGPTNCAPGSACSTLNPYY"},
+                        {"header": "GUX2_TRIRE/30-58", "sequence": "VWGQCGGQ...NWSGPTCCASGSTCVYSNDYY"},
+                        {"header": "GUN5_TRIRE/209-237", "sequence": "LYGQCGGA...GWTGPTTCQAPGTCKVQNQWY"},
+                        {"header": "GUNF_FUSOX/21-49", "sequence": "IWGQCGGN...GWTGATTCASGLKCEKINDWY"},
+                        {"header": "GUX3_AGABI/24-52", "sequence": "VWGQCGGN...GWTGPTTCASGSTCVKQNDFY"},
+                        {"header": "GUX1_PENJA/505-533", "sequence": "DWAQCGGN...GWTGPTTCVSPYTCTKQNDWY"},
+                        {"header": "GUXC_FUSOX/482-510", "sequence": "QWGQCGGQ...NYSGPTTCKSPFTCKKINDFY"},
+                        {"header": "GUX1_HUMGR/493-521", "sequence": "RWQQCGGI...GFTGPTQCEEPYICTKLNDWY"},
+                        {"header": "GUX1_NEUCR/484-512", "sequence": "HWAQCGGI...GFSGPTTCPEPYTCAKDHDIY"},
+                        {"header": "PSBP_PORPU/26-54", "sequence": "LYEQCGGI...GFDGVTCCSEGLMCMKMGPYY"},
+                        {"header": "GUNB_FUSOX/29-57", "sequence": "VWAQCGGQ...NWSGTPCCTSGNKCVKLNDFY"},
+                        {"header": "PSBP_PORPU/69-97", "sequence": "PYGQCGGM...NYSGKTMCSPGFKCVELNEFF"},
+                        {"header": "GUNK_FUSOX/339-370", "sequence": "AYYQCGGSKSAYPNGNLACATGSKCVKQNEYY"},
+                        {"header": "PSBP_PORPU/172-200", "sequence": "RYAQCGGM...GYMGSTMCVGGYKCMAISEGS"},
+                        {"header": "GUX1_PHACH/484-512", "sequence": "QWGQCGGI...GYTGSTTCASPYTCHVLNPYY"},
+                        {"header": "GUN2_TRIRE/25-53", "sequence": "VWGQCGGI...GWSGPTNCAPGSACSTLNPYY"},
+                        {"header": "GUX2_TRIRE/30-58", "sequence": "VWGQCGGQ...NWSGPTCCASGSTCVYSNDYY"},
+                        {"header": "GUN5_TRIRE/209-237", "sequence": "LYGQCGGA...GWTGPTTCQAPGTCKVQNQWY"},
+                        {"header": "GUNF_FUSOX/21-49", "sequence": "IWGQCGGN...GWTGATTCASGLKCEKINDWY"},
+                        {"header": "GUX3_AGABI/24-52", "sequence": "VWGQCGGN...GWTGPTTCASGSTCVKQNDFY"},
+                        {"header": "GUX1_PENJA/505-533", "sequence": "DWAQCGGN...GWTGPTTCVSPYTCTKQNDWY"},
+                        {"header": "GUXC_FUSOX/482-510", "sequence": "QWGQCGGQ...NYSGPTTCKSPFTCKKINDFY"},
+                        {"header": "GUX1_HUMGR/493-521", "sequence": "RWQQCGGI...GFTGPTQCEEPYICTKLNDWY"},
+                        {"header": "GUX1_NEUCR/484-512", "sequence": "HWAQCGGI...GFSGPTTCPEPYTCAKDHDIY"},
+                        {"header": "PSBP_PORPU/26-54", "sequence": "LYEQCGGI...GFDGVTCCSEGLMCMKMGPYY"},
+                        {"header": "GUNB_FUSOX/29-57", "sequence": "VWAQCGGQ...NWSGTPCCTSGNKCVKLNDFY"},
+                        {"header": "PSBP_PORPU/69-97", "sequence": "PYGQCGGM...NYSGKTMCSPGFKCVELNEFF"},
+                        {"header": "GUNK_FUSOX/339-370", "sequence": "AYYQCGGSKSAYPNGNLACATGSKCVKQNEYY"},
+                        {"header": "PSBP_PORPU/172-200", "sequence": "RYAQCGGM...GYMGSTMCVGGYKCMAISEGS"},
+                        {"header": "PSBP_PORPU/128-156", "sequence": "EYAACGGE...MFMGAKCCKFGLVCYETSGKW"}];
+
+            jQuery(document).ready(function() {
+                (function(window){
+                  
+                    /* A full compatability script from MDN: */
+                    var supportPageOffset = window.pageXOffset !== undefined;
+                    var isCSS1Compat = ((document.compatMode || "") === "CSS1Compat");
+                 
+                    /* Set up some variables  */
+                    var header = document.getElementById("headers");
+                    var position = document.getElementById("position"); 
+                    /* Add an event to the window.onscroll event */
+                    window.addEventListener("scroll", function(e) {  
+                    
+                        /* A full compatability script from MDN for gathering the x and y values of scroll: */
+                        var x = supportPageOffset ? window.pageXOffset : isCSS1Compat ? document.documentElement.scrollLeft : document.body.scrollLeft;
+                        var y = supportPageOffset ? window.pageYOffset : isCSS1Compat ? document.documentElement.scrollTop : document.body.scrollTop;
+                        
+                        header.style.top = -y + 51 + "px";
+                        position.style.left = -x + "px";
+                    });
+                  
+                })(window);
+                
+                jQuery.each(MSA, function(seqNum, seqObj) {
+                    MSA[seqNum]["sequence"] = seqObj["sequence"] + seqObj["sequence"] + seqObj["sequence"] + seqObj["sequence"] + seqObj["sequence"]; 
+                });
+
+                var firstLine = '&nbsp;&nbsp;&nbsp;';
+                var secondLine = '';
+                var nextMark = 5;
+                var preSpaces = 1;
+                var postSpaces = 3;
+                while(nextMark < MSA[0]["sequence"].length) {
+                    firstLine += Array(preSpaces + 1).join("&nbsp;") + nextMark.toString() + Array(postSpaces + 1).join("&nbsp;");
+                    nextMark += 5;
+                    preSpaces = 2 - Math.floor(nextMark.toString().length/2);
+                    postSpaces = 3 - Math.floor(nextMark.toString().length/2) - nextMark.toString().length % 2;
+                }
+                
+                jQuery(".position").append("<p class='line line0'>" + firstLine + "</p>");
+                
+                for(var p=0, len = MSA[0]["sequence"].length; p < len; p++) {
+                    if(((p+1)%5) === 0) {secondLine += '|';}
+                    else {secondLine += '&nbsp;';}
+                }
+                
+                jQuery(".position").append("<p class='line line1'>" + secondLine + "</p>");
+                
+                jQuery.each(MSA, function(seqNum, seqObj) {
+                    jQuery(".headers").append("<p class='line'>" + seqObj["header"] + "</p>");
+                    var thisSeq = seqObj["sequence"];
+                    var thisPos = 0;
+                    var thisHTML = '';
+                    if("highlight" in seqObj) {
+                        jQuery.each(seqObj["highlight"], function(hn, ho) {
+                            thisHTML += thisSeq.slice(thisPos, ho[0] - 1) + '<span style="' + ho[1] + '">' + thisSeq.charAt(ho[0] - 1) + '</span>'
+                            thisPos = ho[0];
+                        });
+                        if(thisPos != thisSeq.length) {thisHTML += thisSeq.slice(thisPos);}
+                    }
+                    else {thisHTML = thisSeq;}
+                    jQuery(".alignment").append("<p class='line'>" + thisHTML + "</p>");
+                    if(seqNum == 0) {
+                    }
+                });
+            });
+        </script>
+        <style>
+            body {
+                font-family: "Courier New";
+                font-size: 0.8em;
+            }
+            .top-left {
+                position: fixed;
+                top: 0px;
+                left: 0px;
+                height: 50px;
+                width: 150px;
+                z-index: 3;
+                background-color: white;
+                border-right: 1px solid gray;
+                border-bottom: 1px solid gray;
+            }
+            .position {
+                position: fixed;
+                top: 0px;
+                left: 0px;
+                z-index: 1;
+                height: 50px;
+                border-bottom: 1px solid gray;
+                padding-left:159px;
+                background-color: white;
+                padding-right:10px;
+            }
+            .headers {
+                position: fixed;
+                top: 51px;
+                left: 0px;
+                width: 150px;
+                z-index: 1;
+                border-right: 1px solid gray;
+                background-color: white;
+            }
+            .alignment {
+                position: relative;
+                top: 51px;
+                left: 151px;
+                z-index: 0;
+                /*width: 100%;
+                height: 100%;*/
+            }
+            .line {
+                
+            }
+            .header .line {
+                
+            }
+            .alignment .line {
+                margin-left: 5px;
+            }
+            .position .line {
+                margin-left: 5px;
+            }
+            .line0 {
+                margin-bottom: 5px;
+            }
+            .line1 {
+                margin-top: 0px;
+                margin-bottom: 0px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="top-left"></div>
+        <div class="position" id="position"></div>
+        <div class="headers" id="headers"></div>
+        <div class="alignment" id="alignment"></div>
+    </body>
+</html>
